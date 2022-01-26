@@ -22,7 +22,7 @@ function Panell(props){
            <td>
             Número de páginas
              </td>
-            <td>
+            <td id="unitpag">
               <input type ="number"></input>
             </td>
           </tr>
@@ -30,7 +30,7 @@ function Panell(props){
            <td>
             Número de idiomas
              </td>
-             <td>
+             <td id="unitidiom">
              <input type ="number"></input>
                </td>
          </tr>

@@ -57,8 +57,7 @@ if (checked){
                         /> { ` ${c.Name} ${c.value}`}
                             <Panell key="panel" showPanel={hidePanel}/>
                         </div> 
-
-                        
+                       
                     );
                 }else{
                     return ( <div>
@@ -71,7 +70,7 @@ if (checked){
                 }
 
             })
-        } <p> Preu : { checked.reduce((sum, { value }) => sum + value, 0) } </p> 
+        } <p> Preu : { checked.reduce((sum, { value }) => (sum + value)+(Panell.), 0) } </p> 
         </div>
         </div>
     );
